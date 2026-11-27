@@ -1,0 +1,229 @@
+html {
+    scroll-behavior: smooth;
+    color: slateblue;
+}
+
+@font-face {
+    font-family: robotoSerif;
+    src: url(fonts/Roboto_Serif/RobotoSerif-VariableFont_GRAD,opsz,wdth,wght.ttf);
+}
+
+
+
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(27, 6, 77), rgba(53, 14, 143));
+    background-color: rgba(27, 6, 77);
+    color: white;
+    font-family: robotoSerif;
+}
+h1{
+    font-weight: bold;
+}
+h2, h3 {
+    font-weight: normal;
+    font-size: xx-large;
+}
+p {
+    font-size: x-large;
+}
+
+img {
+    border: 2px solid slateblue;
+}
+
+.header {
+    display: inline-flex;
+    flex-direction: row;
+    width: 101%;
+    height: 70px;
+    gap: 5%;
+    top: 0;
+    z-index: 1000;
+    margin: 1%;
+    align-self: center;
+    background-color: rgb(27, 6, 77, .4);
+    transition: ease-out .2s;
+    position: sticky;
+}
+.header:hover {
+    background-color: rgb(27, 6, 77);
+    transition: ease-in .2s;
+}
+
+.contactIcons {
+    display: inline-flex;
+    width: 95%;
+    padding-left: 1%;
+    flex-direction: row;
+    align-items: center;
+}
+.icon {
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: white;
+    transition: ease-out .2s;
+    align-items: center;
+}
+.icon img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border: none !important;
+}
+.icon:hover {
+    height: 60px;
+    width: 60px;
+    background-color: slateblue;
+    transition: ease-in .1s;
+}
+
+.contents {
+    display: inline-flex;
+    justify-content: right;
+    align-self: center;
+    align-items: center;
+    gap: 1.5vw;
+    width: 95%;
+    height: 105%;
+    padding-right: 3vw;
+    justify-self: right;
+}
+.goToContent {
+    font-family: boldRobotoSerif;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3vw;
+    transition: ease-out .3s;
+}
+.goToContent:hover {
+    font-size: 1.5vw;
+    h1 {
+        color: slateblue !important;
+        transition: ease-in .1s;
+    }
+    transition: ease-in .1s;
+}
+a:-webkit-any-link {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+}
+.aboutMeImages {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 70%;
+    margin: 4%;
+    margin-right: 0%;
+    gap: 5%;
+}
+.aboutMeImages img{
+    height: 30%;
+    width: auto;
+    border-radius: 30px;
+    margin-bottom: 6%;
+}
+#lunaMichaelLogo{
+    border: none !important;
+}
+.lunaMichaelLogo {
+    width: 100%;
+    height: auto;
+}
+.aboutMeArticle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.lilGap {
+    height: 25px;
+}
+.sectionHeader {
+    display: flex;
+    flex-direction: column;
+}
+.sectionHeader h1 {
+    font-size: xxx-large;
+    margin-left: 4%;
+    margin-bottom: 0%;
+}
+
+.resumeArticle {
+    display: flex;
+    flex-direction: row;
+    margin: 4%;
+    margin-top: 0%;
+    gap: 4%;
+    justify-content: center;
+}
+
+.projectsArticle {
+    display: flex;
+    flex-direction: row;
+    margin: 4%;
+    margin-top: 0%;
+    gap: 4%;
+    justify-content: left;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 7%;
+    align-items: center;
+}
+#titanPhotos {
+    margin-top: 4%;
+}
+#titanPhotos img {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+}
+#elevatorClimb img{
+    width: 170%;
+    height: auto;
+    border-radius: 30px;
+}
+#cadFile {
+    border-radius: 30px;
+    border: 2px solid slateblue;
+
+}
+#elevatorClimbVideo {
+    align-self: center;
+    border-radius: 30px;
+    border: 2px solid slateblue;
+
+}
+
+.textBlock {
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: 7%;
+    background-color: rgba(17, 4, 48);
+}
+.textBlock h1 {
+    margin: 5%;
+    margin-top: -45px;
+    margin-bottom: 0%;
+    font-size: xxx-large;
+}
+.textBlock p{
+    margin: 20px;
+}
+.textBlock h2{
+    margin: 20px;
+}
