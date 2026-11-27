@@ -126,7 +126,7 @@ a:-webkit-any-link {
     width: 40%;
     height: 70%;
     margin: 4%;
-    margin-right: 0%;
+    margin-right: 0;
     gap: 5%;
 }
 .aboutMeImages img{
@@ -160,14 +160,14 @@ a:-webkit-any-link {
 .sectionHeader h1 {
     font-size: xxx-large;
     margin-left: 4%;
-    margin-bottom: 0%;
+    margin-bottom: 0;
 }
 
 .resumeArticle {
     display: flex;
     flex-direction: row;
     margin: 4%;
-    margin-top: 0%;
+    margin-top: 0;
     gap: 4%;
     justify-content: center;
 }
@@ -179,7 +179,7 @@ a:-webkit-any-link {
     display: flex;
     flex-direction: row;
     margin: 4%;
-    margin-top: 0%;
+    margin-top: 0;
     gap: 4%;
     justify-content: left;
 }
@@ -228,7 +228,7 @@ a:-webkit-any-link {
 .textBlock h1 {
     margin: 5%;
     margin-top: -45px;
-    margin-bottom: 0%;
+    margin-bottom: 0;
     font-size: xxx-large;
 }
 .textBlock p{
