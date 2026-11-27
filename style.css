@@ -76,6 +76,7 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
     border: none !important;
+    filter: none !important;
 }
 .icon:hover {
     height: 60px;
